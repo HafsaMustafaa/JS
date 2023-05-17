@@ -9,10 +9,10 @@
 //message to display the calculated zakat value. The message should look like this:
 //"Your zakat value is xxx".
 
-var zakatpercentage = 0.0254;
-var userInput=Number( prompt("Enter a number"));
-var result =(zakatpercentage) * (userInput);
-alert ("Your zakat value is " + result) 
+//var zakatpercentage = 0.0254;
+//var userInput=Number( prompt("Enter a number"));
+//var result =(zakatpercentage) * (userInput);
+//alert ("Your zakat value is " + result) 
 
 
 //---------------------------------------TASK NO - 02---------------------------------------------
@@ -25,36 +25,36 @@ alert ("Your zakat value is " + result)
 //by multiplying the selected method's price with the number of family members.
 //Finally, display the calculated fitrah amount using an alert message
 
-alert ("calculate fitrah amount");
-var familyMembers=+prompt("input your family members");
-var fitrahmethod=+prompt("1,2,3,4");
-var wheat=250;
-var oats=450;
-var dates=2100;
-var raisin=2800;
+//alert ("calculate fitrah amount");
+//var familyMembers=+prompt("input your family members");
+//var fitrahmethod=+prompt("1,2,3,4");
+//var wheat=250;
+//var oats=450;
+//var dates=2100;
+//var raisin=2800;
 
-if (fitrahmethod==1) {
-  var result=wheat * familyMembers;
-  console.log(wheat * familyMembers); 
-  alert ("your fitah value is" + result);
+//if (fitrahmethod==1) {
+  //var result=wheat * familyMembers;
+  //console.log(wheat * familyMembers); 
+  //alert ("your fitah value is" + result);
 
-}
-else if (fitrahmethod==2) {
-  var result=oats * familyMembers;
-  console.log(oats * familyMembers);
-  alert("Your fitrah value is" + result);
-}
-else if (fitrahmethod==3) {
-  var result=dates * familyMembers;
-  console.log(dates * familyMembers);
-  alert("Your fitrah value is" + result);
+//}
+//else if (fitrahmethod==2) {
+ // var result=oats * familyMembers;
+ // console.log(oats * familyMembers);
+ // alert("Your fitrah value is" + result);
+//}
+//else if (fitrahmethod==3) {
+ // var result=dates * familyMembers;
+ // console.log(dates * familyMembers);
+ // alert("Your fitrah value is" + result);
 
-}
-else if (fitrahmethod==4) {
-  var result=raisin * familyMembers;
-  console.log(raisin * familyMembers);
-  alert("Your faith value is" + result)
-}
+//}
+//else if (fitrahmethod==4) {
+//  var result=raisin * familyMembers;
+//  console.log(raisin * familyMembers);
+//  alert("Your faith value is" + result)
+//}
 
 
 
@@ -68,22 +68,22 @@ else if (fitrahmethod==4) {
 //guessed the secret number". Otherwise, if the guess is too high or too low, display
 //an appropriate message informing the user to guess again
 
-var secretNumber = 9;
-var userguess = +prompt ("Kindly put your secret number");
+//var secretNumber = 9;
+//var userguess = +prompt ("Kindly put your secret number");
 
-if (userguess==9) {
-  alert("Congratulations! You guessed the correct secret number");
+//if (userguess==9) {
+//  alert("Congratulations! You guessed the correct secret number");
 
-}
+//}
 
-else if (userguess<9) {
-  alert("You guess is too low number,try again!");
+//else if (userguess<9) {
+ // alert("You guess is too low number,try again!");
 
-}
-else if (userguess>9) {
-  alert("You guess is too high number,try agiain!");
+//}
+//else if (userguess>9) {
+ // alert("You guess is too high number,try agiain!");
 
-}
+//}
 
 
 
@@ -95,21 +95,21 @@ else if (userguess>9) {
 // Create a program that asks the user to enter a name, and then prints out the name
 //with the first letter capitalized (Make your name in capitalized case)
 
-var yourname = prompt("enter your name");
+//var yourname = prompt("enter your name");
 
-var capitalname =[];
-var capitalizedname=[];
+//var capitalname =[];
+//var capitalizedname=[];
 
-var first= yourname.slice(0,1);
-var f = first.toUpperCase();
+//var first= yourname.slice(0,1);
+//var f = first.toUpperCase();
 
-capitalname.push(f);
+//capitalname.push(f);
 
-var second =yourname.slice(1);
-var s= second.toLowerCase();
-capitalizedname.push(s);
+//var second =yourname.slice(1);
+//var s= second.toLowerCase();
+//capitalizedname.push(s);
 
-alert(capitalname + capitalizedname);
+//alert(capitalname + capitalizedname);
 
 
 //------------------------------------- TASK NO : 05 -------------------------------------
@@ -125,25 +125,25 @@ alert(capitalname + capitalizedname);
 
 //ab hun 2arrays bnayengy empty
 
-contactNames=[];
-contactNumbers=[];
+//contactNames=[];
+//contactNumbers=[];
 
-for( s=0 ; s>4 ; s++ ) {
-  var person_name =prompt("Enter Your Contact Number");
-  contactNames.push(person_name);
+//for( s=0 ; s>4 ; s++ ) {
+//  var person_name =prompt("Enter Your Contact Number");
+//  contactNames.push(person_name);
 
 
-  var person_number =+prompt("Enter Your Contact number");
-  contactNumbers.push(person_number);
+//  var person_number =+prompt("Enter Your Contact number");
+//  contactNumbers.push(person_number);
 
-}
+//}
 
-console.log("contactNames:   contactNumbers");
+//console.log("contactNames:   contactNumbers");
 
-for( i=0 ; i>4 ; i++) {
+//for( i=0 ; i>4 ; i++) {
 
-  console.log(contactNames[s] +             + contactNumbers[s]);
-}
+ // console.log(contactNames[s] +             + contactNumbers[s]);
+//}
 
 
 
@@ -164,19 +164,19 @@ for( i=0 ; i>4 ; i++) {
 
 
 
-var outcome=["chair","table","sofa","bed"];
+//var outcome=["chair","table","sofa","bed"];
 
-var useroutcome=+prompt("Kindly putting the number of outcome to remove= \n 1.chair, \n 2.table, \n 3.sofa, \n 4.bed");
+//var useroutcome=+prompt("Kindly putting the number of outcome to remove= \n 1.chair, \n 2.table, \n 3.sofa, \n 4.bed");
 
-var Removedoutcome= outcome.splice(useroutcome,2);
+//var Removedoutcome= outcome.splice(useroutcome,2);
 
-console.log("The removed outcome is:" +Removedoutcome);
+//console.log("The removed outcome is:" +Removedoutcome);
 
-console.log("The remaining outcomes are");
-for( i=0 ; i<outcome.length ; i++) {
- console.log (i +" " + outcome[i]);
-}
-console.log("the remaining out come is" + outcome.lenght);
+//console.log("The remaining outcomes are");
+//for( i=0 ; i<outcome.length ; i++) {
+ //console.log (i +" " + outcome[i]);
+//}
+//console.log("the remaining out come is" + outcome.lenght);
 
 
 
@@ -195,41 +195,41 @@ console.log("the remaining out come is" + outcome.lenght);
 //to vote
 
 
-var Nationality = prompt("Kindly Put Your Nationality");
+//var Nationality = prompt("Kindly Put Your Nationality");
 
-var Gender = prompt ("Kindly Put Your Gender");
+//var Gender = prompt ("Kindly Put Your Gender");
 
-var Age = +prompt ("Kindly Put Your Age");
+//var Age = +prompt ("Kindly Put Your Age");
 
-if (Nationality == "Pakistani" || "Indian") {
+//if (Nationality == "Pakistani" || "Indian") {
 
-  alert("They Are Not Eligable To Vote");
+  //alert("They Are Not Eligable To Vote");
 
-} 
-if(( gender == 'Male' && age>18)){
+//} 
+//if(( gender == 'Male' && age>18)){
 }
 
-if( gender== 'female' && age>18){
+//if( gender== 'female' && age>18){
 
-   var marritalstatus = prompt("what is your marrital status  \ 1. married \ 2. unmarried")
+ //  var marritalstatus = prompt("what is your marrital status  \ 1. married \ 2. unmarried")
 
-   marritalstatus.toLowerCase
+  // marritalstatus.toLowerCase
 
-  if(marritalstatus == 'married') {
+  //if(marritalstatus == 'married') {
 
-   alert("you are eligible to cast vote")
-}
+  // alert("you are eligible to cast vote")
+//}
 
-else if (marritalstatus == 'unmarried'){
+//else if (marritalstatus == 'unmarried'){
 
   alert("you are not eligible to cast vote")
-}
-}
+//}
+//}
 
-else { 
+//else { 
 
-  alert("you are not eligible")
-}
+  //alert("you are not eligible")
+//}
 
 
 
@@ -246,12 +246,12 @@ else {
 //to make a copy of this array
 
 
-var WorldSquadTeamPlayer = ["Babar Azam (captain), Shadab Khan (vicecaptain), Asif Ali, Haider Ali, Haris Rauf, Iftikhar Ahmed, Khushdil Shah, Mohammad Hasnain, Mohammad Nawaz, Mohammad Rizwan, Mohammad Wasim, Naseem Shah, Shaheen Shah Afridi, Shan Masood, Usman Qadir"];
+//var WorldSquadTeamPlayer = ["Babar Azam (captain), Shadab Khan (vicecaptain), Asif Ali, Haider Ali, Haris Rauf, Iftikhar Ahmed, Khushdil Shah, Mohammad Hasnain, Mohammad Nawaz, Mohammad Rizwan, Mohammad Wasim, Naseem Shah, Shaheen Shah Afridi, Shan Masood, Usman Qadir"];
 
-var finalteamplayer = [];
+//var finalteamplayer = [];
 
-var finalteamplayer = WorldSquadTeamPlayer.slice(0.11);
+//var finalteamplayer = WorldSquadTeamPlayer.slice(0.11);
 
-alert("The final team is" + finalteamplayer);
+//alert("The final team is" + finalteamplayer);
 
 
